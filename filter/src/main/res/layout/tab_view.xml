@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/text_tab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableEnd="@drawable/filter_down"
+        android:drawablePadding="4dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:lines="1"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:textColor="@color/text_gray_dark"
+        android:textSize="14sp" />
+
+</LinearLayout>

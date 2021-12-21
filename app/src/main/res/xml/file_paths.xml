@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!--name 是起的别名(随便起)   path是要共享的文件夹 -->
+    <external-path
+        name="files_root"
+        path="Android/data/jx.android.staff/" />
+    <external-path
+        name="/storage/emulated/0/"
+        path="." />
+</paths>

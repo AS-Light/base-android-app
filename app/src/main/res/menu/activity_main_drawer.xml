@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_purchase"
+            android:icon="@drawable/icon_menu_purchase"
+            android:title="@string/menu_purchase" />
+        <item
+            android:id="@+id/nav_distribution_goods"
+            android:icon="@drawable/icon_menu_distribution"
+            android:title="@string/menu_distribution_goods" />
+        <item
+            android:id="@+id/nav_distribution_order"
+            android:icon="@drawable/icon_menu_distribution"
+            android:title="@string/menu_distribution_order" />
+        <item
+            android:id="@+id/nav_delivery"
+            android:icon="@drawable/icon_menu_delivery"
+            android:title="@string/menu_delivery" />
+    </group>
+</menu>

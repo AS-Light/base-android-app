@@ -1,0 +1,17 @@
+// Copyright (c) Facebook, Inc. and its affiliates. All Rights Reserved.
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion compileSdkVer
+
+    defaultConfig {
+        minSdkVersion minSdkVer
+    }
+}
+
+dependencies {
+    implementation("androidx.annotation:annotation:1.1.0") {
+        exclude module: 'support-annotations'
+        exclude module: 'support-v4'
+    }
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="main_navigation_title">
+        <item>房源</item>
+        <item>名片/海报</item>
+        <item>消息</item>
+        <item>我的</item>
+    </string-array>
+
+    <string-array name="main_navigation_action_color">
+        <item>@color/blue</item>
+        <item>@color/blue</item>
+        <item>@color/blue</item>
+        <item>@color/blue</item>
+    </string-array>
+</resources>

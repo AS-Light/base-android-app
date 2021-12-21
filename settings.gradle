@@ -1,0 +1,6 @@
+include ':app'
+include ':easyrecycler'
+include ':iosalert'
+include ':shimmer'
+include ':convenientbanner'
+include ':bluetoothprinter'

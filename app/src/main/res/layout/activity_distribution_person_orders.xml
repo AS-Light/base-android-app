@@ -1,0 +1,113 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ContentDescription">
+
+    <data>
+
+        <import type="jx.android.staff.binding.vm.DistributionPersonOrdersActivityViewModel" />
+
+        <import type="jx.android.staff.binding.handler.DistributionPersonOrderDetailActivityHandler" />
+
+        <variable
+            name="viewModel"
+            type="DistributionPersonOrdersActivityViewModel" />
+
+        <variable
+            name="handler"
+            type="jx.android.staff.binding.handler.DistributionPersonOrderDetailActivityHandler" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/spliter_gray"
+        android:orientation="vertical"
+        tools:context=".acts.main.distribution_shop.DistributionMainShopFragment">
+
+        <com.aslight.titlebar.widget.CommonTitleBar
+            android:id="@+id/title_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:fillStatusBar="true"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:leftDrawable="@drawable/icon_title_back"
+            app:leftDrawablePadding="10dp"
+            app:leftText="房源海报"
+            app:leftTextColor="@color/white"
+            app:leftTextSize="16sp"
+            app:leftType="textView"
+            app:rightTextColor="@color/white"
+            app:showBottomLine="false"
+            app:statusBarColor="@color/black"
+            app:statusBarMode="light"
+            app:titleBarColor="@color/black" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/main_white"
+            android:orientation="horizontal"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp">
+
+            <ImageView
+                android:id="@+id/img_avatar"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/avatar_def_little"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/text_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp"
+                android:paddingTop="2dp"
+                android:paddingEnd="10dp"
+                android:text="@string/def_person_name"
+                android:textColor="@color/text_black"
+                android:textSize="14sp"
+                app:layout_constraintLeft_toRightOf="@id/img_avatar"
+                app:layout_constraintTop_toTopOf="@id/img_avatar"
+                app:layout_constraintBottom_toBottomOf="@id/img_avatar"/>
+
+            <View
+                android:id="@+id/line_bottom"
+                style="@style/Spliter.Horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="60dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ready_order"
+                android:textColor="@color/text_green"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@id/img_avatar"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="@id/img_avatar"
+                android:layout_marginEnd="10dp"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <View style="@style/Margin.Horizontal" />
+
+        <com.jude.easyrecyclerview.EasyRecyclerView
+            android:id="@+id/recycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_empty="@layout/layout_no_data"
+            app:layout_error="@layout/layout_recycler_error"
+            app:layout_progress="@layout/layout_recycler_progress"
+            app:scrollbarStyle="insideOverlay"
+            app:scrollbars="none" />
+    </LinearLayout>
+</layout>

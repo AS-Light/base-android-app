@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">poptabview</string>
+
+
+    <string name="filter_reset">重置</string>
+    <string name="clear">清空</string>
+    <string name="confirm">确认</string>
+    <string name="data_loading_failed">数据加载失败</string>
+    <string name="make_sure_your_phone_is_connected_to_the_Internet">请确保您的手机已经联网</string>
+    <string name="reload">重新加载</string>
+    <string name="highest">最高</string>
+    <string name="lowest">最低</string>
+
+</resources>

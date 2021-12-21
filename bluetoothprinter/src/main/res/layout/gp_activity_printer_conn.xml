@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".views.GPPrinterConnActivity">
+
+    <FrameLayout
+        android:id="@+id/fl_printer_conn_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_printer_conn_top_container"
+        android:layout_width="match_parent"
+        android:layout_height="162dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/iv_printer_conn_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/gp_ic_printer_set_unlinked"/>
+
+        <TextView
+            android:id="@+id/tv_printer_conn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_below="@+id/iv_printer_conn_icon"
+            android:layout_centerHorizontal="true"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:text="查找中"/>
+
+        <ProgressBar
+            android:id="@+id/pb_printer_conn"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignBottom="@+id/tv_printer_conn"
+            android:layout_toRightOf="@+id/tv_printer_conn"
+            android:layout_marginLeft="5dp"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_printer_conn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <com.haoyd.printerlib.views.GPPrinterEmptyView
+            android:id="@+id/pev_printer_conn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fefefe"
+            android:visibility="visible"/>
+
+    </FrameLayout>
+</LinearLayout>

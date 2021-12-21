@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_purchase">
+
+    <fragment
+        android:id="@+id/nav_purchase"
+        android:name="jx.android.staff.acts.main.purchase.PurchaseMainFragment"
+        android:label="@string/menu_purchase"
+        tools:layout="@layout/fragment_main_purchase" />
+
+    <fragment
+        android:id="@+id/nav_distribution_goods"
+        android:name="jx.android.staff.acts.main.distribution_goods.DistributionMainGoodsFragment"
+        android:label="@string/menu_distribution_goods"
+        tools:layout="@layout/fragment_main_distribution_goods" />
+
+    <fragment
+        android:id="@+id/nav_distribution_order"
+        android:name="jx.android.staff.acts.main.distribution_shop.DistributionMainShopFragment"
+        android:label="@string/menu_distribution_order"
+        tools:layout="@layout/fragment_main_distribution_shop" />
+
+    <fragment
+        android:id="@+id/nav_delivery"
+        android:name="jx.android.staff.acts.main.delivery.DeliveryMainFragment"
+        android:label="@string/menu_delivery"
+        tools:layout="@layout/fragment_main_delivery" />
+</navigation>

@@ -1,0 +1,356 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">秒卖房经纪人</string>
+    <string name="search_hint_text">搜索区、商圈、小区、街道、房源编号</string>
+    <string name="search_history_text">历史搜索</string>
+    <string name="search">搜索</string>
+
+    <string name="msg_conference_invite">快来加入会议</string>
+    <string name="msg_recall_by_self">您撤回了一条消息</string>
+    <string name="msg_recall_by_user">%1$s 撤回了一条消息</string>
+    <string name="at_your_in_group">%s在群聊中@了你</string>
+
+    <string name="will_start_visit">拨打电话\n预约看房</string>
+    <string name="hd_qr">高清二维码</string>
+    <string name="phone">电话</string>
+    <string name="wechat">微信</string>
+    <string name="remarks">备注</string>
+    <string name="unfilled">未填写</string>
+    <string name="single_house_share">单套分享</string>
+    <string name="more_house_share">多套分享</string>
+
+    <!--我的页面-->
+    <string name="exposition_score">评分是什么</string>
+    <string name="overall_rating">综合评分</string>
+    <string name="diligence">勤奋度</string>
+    <string name="contribution">贡献度</string>
+    <string name="popularity">人气度</string>
+    <string name="personal_information">个人信息</string>
+    <string name="personal_type">会员信息</string>
+    <string name="account_type">账户类型:</string>
+    <string name="provide_house">提供房源</string>
+    <string name="mine_miaodou">赚秒豆</string>
+    <string name="update_personal_information">修改信息</string>
+    <string name="login_password">登录密码</string>
+    <string name="mine_record">我的记录</string>
+    <string name="browse_record">浏览记录</string>
+    <string name="attentione_record">关注记录</string>
+    <string name="reservation_record">预约记录</string>
+    <string name="carry_record">带看记录</string>
+    <string name="my_vip">我的会员</string>
+    <string name="other">其他</string>
+    <string name="task_get_bean">做任务赚秒豆</string>
+    <string name="house_push_99">房源推广- 推推99专区</string>
+    <string name="house_push_record">房源推广记录</string>
+    <string name="house_push_sale_manage">出售管理</string>
+    <string name="house_push_advanced">高级功能</string>
+    <string name="validity_period">有效期:</string>
+    <string name="remaining">剩余可用:</string>
+    <string name="about">关于我们</string>
+    <string name="recommend">推荐给朋友</string>
+    <string name="remind_msg">消息提醒设置</string>
+    <string name="product_manual">产品手册</string>
+    <string name="vip_center">会员中心</string>
+    <string name="vip_description">开通后解锁全部会员特权功能</string>
+    <string name="vip_description1">已解锁全部会员特权功能</string>
+    <!--我的页面-提供房源-->
+    <string name="my_provide_house">我提供的房源线索</string>
+    <string name="get_legumes">赚秒豆</string>
+    <string name="legumess_leaderboard">秒豆排行榜</string>
+    <string name="publish_prompt"><Data><![CDATA[※请提交真实房源线索，小伙伴通过电话审核，核实并发布后直接发放<font color="#fd7200">100秒豆</font>），蓄意提交虚假房源线索，将会被封号除名。]]></Data></string>
+
+    <string name="copy">复制</string>
+    <string name="forward">转发</string>
+    <string name="recall">撤回</string>
+
+    <string name="score_desc">·【经纪人评分】是平台用以彰显经纪人展业努力的成就体系，希望经纪人的每个付出都能很好的被记录和回报。\n·  综合评分主要包括贡献度、勤奋度及人气度三个方面。</string>
+    <string name="ranking_desc_contribution_1"><Data><![CDATA[1.提交房源线索，不仅可以提升贡献度积分，还可以获得<font color="#fd7200">100秒豆</font>。]]></Data></string>
+    <string name="ranking_desc_contribution_2">2.房源线索经过审核后会公开发布到平台上，大家一起帮忙卖方，所以须为真实有效的数据。</string>
+    <string name="ranking_desc_contribution_3">3.更多贡献度提升方法逐渐开放中，敬请期待。</string>
+
+    <string name="ranking_desc_diligence_1">1.浏览房源及关注房源，都可以积累勤奋度，关注房源信息动态，一首信息更容易促进交易。</string>
+    <string name="ranking_desc_diligence_2">2.认真对待每次与卖家沟通的机会，完成信息初步获取并积累信任感，提升服务专业度及竞争力。</string>
+    <string name="ranking_desc_diligence_3">3.不爽约，也是专业和态度的基本保证。</string>
+    <string name="ranking_desc_diligence_4">4.更新房源成交状态，及时回传成交信息。</string>
+
+    <string name="ranking_desc_hot_1">1.利用名片海报等工作大力做自我品牌传播和拓展，吸引更多访客和客户的关注和来访。</string>
+    <string name="ranking_desc_hot_2">2.获得更多访客和客户的认可，有助于提升个人品质及展业过程中的专业性。</string>
+    <string name="about_us_content">秒卖房，全称：秒卖房(大连)科技有限公司，是一家以互联网+物联网技术为驱动，结合房产大数据支撑，为房主提供房屋的共享销售网络服务，平台上线即获得国际顶级投资机构的投资。秒卖房拥有超高水平的IT技术，优质的产品服务，成熟的运营团队。自平台上线以来深受房产中介与房主的喜爱，已帮助多位房主成功出售房屋，平均房屋成交周期仅用13天，高于行业平均水平的7倍，房屋最快售出仅用了2小时。目前产品已覆盖电脑端、移动端及微信小程序，用全方位的产品和服务，为用户提供最优质的用户体验，是全国房产行业首个提出“限时保卖”概念的行业开拓者!全城10000房产经纪人帮你卖，房子卖得快，房主多卖钱。</string>
+
+    <string name="unit_ten_thousand_with_value">%s万</string>
+    <string name="unit_ten_thousand_yuan_with_value">¥ %s万</string>
+    <string name="unit_yuan_per_square_metre">%s元/㎡</string>
+    <string name="unit_square_metre_with_value">%s㎡</string>
+    <string name="unit_square_metre">㎡</string>
+
+    <string name="house_claim_title_date"><Data><![CDATA[<font color="#fa4d47">*</font>成交日期: ]]></Data></string>
+    <string name="house_claim_title_total_price"><Data><![CDATA[<font color="#fa4d47">*</font>成交总价: ]]></Data></string>
+    <string name="house_claim_title_pic"><Data><![CDATA[<font color="#fa4d47">*</font>图片: ]]></Data></string>
+    <string name="house_claim_house_code">房源编号：%s</string>
+    <string name="house_claim_warm">* 需提供购房合同等有效证明图片。</string>
+    <string name="attention_area_already_attention">我已关注的商圈</string>
+    <string name="complete">完成</string>
+    <string name="attention_area_add_area">添加商圈</string>
+    <string name="attention_area_add_area_desc">点击即可添加商圈</string>
+    <string name="house_code">房源编号：%s</string>
+    <string name="upload">提交</string>
+    <string name="owner_not_public">房主未公开</string>
+    <string name="unit_ton_thousand_yuan">万元</string>
+    <string name="please_insert_num">请填写数字</string>
+    <string name="source_upgrading">资源上传中</string>
+    <string name="cancel">取消</string>
+    <string name="poster_qr_warming">海量好房 扫码查看</string>
+    <string name="change_poster">切换模板</string>
+    <string name="build_poster">生成海报</string>
+    <string name="recommend_selling_point">推荐卖点</string>
+    <string name="recommend_time_with_value">推荐时间: %s</string>
+    <string name="follow_member_count_with_value">关注人数: %s</string>
+    <string name="browser_member_count_with_value">浏览次数: %s</string>
+    <string name="view_at_moment">立即查看</string>
+    <string name="top_weekly_header">看好选好抢好房，佣金绝对有保障</string>
+    <string name="weekly_price_with_value">总价: %s万 单价: %s/㎡</string>
+    <string name="all_house">全部房源</string>
+    <string name="house_unit_with_value">%s套</string>
+    <string name="home_main_no_data_to_recommend">亲 没有找到哦\n请换个搜索条件或浏览我们为您推荐的房源～</string>
+    <string name="title_register">注册</string>
+    <string name="num_point_num_with_value">%s/%d</string>
+    <string name="welcome">欢迎你</string>
+    <string name="choice_city">选择城市</string>
+    <string name="name">姓名</string>
+    <string name="please_input_phone_num">请输入手机号码</string>
+    <string name="send_sms">发送验证码</string>
+    <string name="please_input_sms_code">请输入验证码</string>
+    <string name="company_info">所属公司信息</string>
+    <string name="i_read_and_agree">我已阅读并同意</string>
+    <string name="mmf_protocol">《秒卖房用户使用协议》</string>
+    <string name="new_member_register">新用户注册</string>
+    <string name="done">完成</string>
+    <string name="retry_after_seconds_with_value">%d秒后重试</string>
+    <string name="login_with_password">密码登录</string>
+    <string name="retrieve_password">找回密码</string>
+    <string name="login_with_sms">验证码登录</string>
+    <string name="please_input_password_with_rule">请输入密码 （8位以上，需包含数字及字母）</string>
+    <string name="GPS_locate">GPS定位</string>
+    <string name="open_city">开通城市</string>
+    <string name="refresh_location">重新定位</string>
+    <string name="locating">定位中</string>
+    <string name="lately_visitor">最近访客</string>
+    <string name="all_visitor">全部访客</string>
+    <string name="no_data_to_share_and_poster">咦，还没发现有数据呢 快去转发分享名片和海报吧</string>
+    <string name="show_more">查看更多</string>
+    <string name="poster_tag_string">获客神器 限时开放</string>
+    <string name="line_line">--</string>
+    <string name="show_visitor">查看访客</string>
+    <string name="send_to_friend">发送给朋友</string>
+    <string name="share_to_friend_circle">发到朋友圈</string>
+    <string name="download_qr">保存名片二维码</string>
+    <string name="no_brows">暂无浏览</string>
+    <string name="make_pic">生成图片</string>
+    <string name="make_card_pic">保存电子名片</string>
+    <string name="immediately_opened">立即开通</string>
+    <string name="immediately_contact">立即联系</string>
+    <string name="immediately_add">立即续费</string>
+    <string name="mmf_vip_first">暂未开通秒卖房会员</string>
+    <string name="mmf_vip_expired">会员已过期</string>
+    <string name="consultant">专属服务顾问:</string>
+    <string name="vip_privilege">会员特权</string>
+    <string name="is_vip">(已开通)</string>
+    <string name="no_vip">(未开通)</string>
+    <string name="poster">获客海报</string>
+    <string name="change_user_info">修改信息</string>
+    <string name="people_support_with_value">%s人支持</string>
+    <string name="add_note">增加笔记</string>
+    <string name="star_title"><Data><![CDATA[<font color="#fa4d47">* </font>标题： ]]></Data></string>
+    <string name="no_star_note"><Data><![CDATA[<font color="#00ffffff">* </font>笔记： ]]></Data></string>
+    <string name="mmf_vip_end_time"><Data><![CDATA[会员  <font color="#FF6600">  %s天后过期  </font>，充值后可续期]]></Data></string>
+    <string name="commission_house_count"><Data><![CDATA[<font color="#FF6600">  %s  </font>套业主委托房源]]></Data></string>
+    <string name="please_input_note_title">请输入笔记标题，不超过20字</string>
+    <string name="edit_note_content">房源信息、客户信息、带看计划等都可以随手记一笔</string>
+    <string name="note">跟进笔记</string>
+    <string name="confirm">确定</string>
+    <string name="call_to_visitor">拨打对方电话</string>
+    <string name="customer_manage">客户管理</string>
+    <string name="get_customer_manage">获客管理</string>
+    <string name="new_exclusive_house">新增房源</string>
+    <string name="exclusive_house_list">录入的房源</string>
+    <string name="claim_house_list">主推房源</string>
+    <string name="client_message">客户信息</string>
+    <!--秒豆-->
+    <string name="fast_get_beans_txt"><Data><![CDATA[每10元人民币可购买<font color="#fd7200">100秒豆</font>。]]></Data></string>
+    <string name="sign_beans_txt"><Data><![CDATA[完成每周签到任务，即可获得<font color="#fd7200">15秒豆</font>。]]></Data></string>
+    <string name="register_beans_txt"><Data><![CDATA[每邀请一位新经纪人注册并通过审核后即可获得<font color="#fd7200">100秒豆</font>。]]></Data></string>
+    <string name="mmf_vip_no_str"><Data><![CDATA[秒卖房会员，独享 <font color="#fd7200">12</font> 大特权]]></Data></string>
+    <string name="pay_point_for_house_info">拨打电话及查看地址</string>
+    <string name="need_bean">所需秒豆:</string>
+    <string name="need_count">消耗数量:</string>
+    <string name="bean_last">秒豆余额:</string>
+    <string name="count_last">套餐剩余次数</string>
+    <string name="to_mine_activity_learn_bean_info">* 访问【我的】页面，了解更多秒豆获得方式。</string>
+    <string name="have_bean_count">可用秒豆</string>
+    <string name="add_bean_count_with_value">%s秒豆</string>
+    <string name="yuan_with_value">%s元</string>
+    <string name="i_want_feedback">我要反馈</string>
+    <string name="area">面积</string>
+    <string name="apartment">户型</string>
+    <string name="warm_look_house_to_call_service_get_key">注意事项：公正手续。看房提前联系下方客服。有钥匙</string>
+    <string name="price">价格</string>
+    <string name="show_whole_address">查看完整地址</string>
+    <string name="house_keeper_desc">房主自述</string>
+    <string name="agent_must_learn">经纪人须知</string>
+    <string name="deal_info">交易信息</string>
+    <string name="house_moving">房源动态</string>
+
+    <string name="mmf_follow_up">秒卖房跟进</string>
+    <string name="location">位置</string>
+    <string name="location_pic">位置图片</string>
+    <string name="warm_info">卖房须知</string>
+    <string name="take_look_flow">带看流程</string>
+    <string name="guess_you_like">猜你喜欢</string>
+    <string name="good_house_recommend">好房推荐</string>
+    <string name="like_house">相似房源</string>
+    <string name="follow">关注</string>
+    <string name="so_much_house_scan_qr_to_show">海量好房 扫码查看</string>
+    <string name="long_click_to_distinguish_qr">长按识别二维码</string>
+    <string name="edit">编辑</string>
+    <string name="good_house_share">好房分享</string>
+    <string name="sell_price">售价</string>
+    <string name="loading_house_code">房源编号：加载中。。</string>
+    <string name="input_your_feedback_and_we_will_call_you">输入您的意见和建议，我们会第一时间处理，期间可能需要电话与您沟通。</string>
+    <string name="you_will_get_bean_when_feedback_checked">* 反馈得秒豆：审核通过后即可获得相应秒豆。</string>
+    <string name="supplementary_notes_optional">补充说明（选填）</string>
+    <string name="daily_sign_in">每日签到</string>
+    <string name="sign_in">签到</string>
+    <string name="door_password_title_password">密码:</string>
+    <string name="request_time">申请时间</string>
+    <string name="end_time">到期时间</string>
+    <string name="set_i_attention_business_circle">设置我关注的商圈</string>
+    <string name="daily_def_title">--昨日新上房源--套</string>
+    <string name="def_house_unit">--套</string>
+    <string name="all_house_res">全部房源</string>
+    <string name="sign_in_for_a_week_will_get_15_beans">每日签到，连续一周完成签到可累计获得15秒豆。</string>
+    <string name="to_invite">去邀请</string>
+    <string name="will_get_after_invite_a_new_agent_and_approved">每邀请1位新经纪人注册，审核通过后即可获得。</string>
+    <string name="to_invite_agent_register">邀请经纪人注册</string>
+    <string name="upload_effective_house_clues">提交有效房源线索</string>
+    <string name="to_upload">去提交</string>
+    <string name="please_call_phone_for_full_address">(请拨打电话获取具体地址)</string>
+    <string name="chat_message_warming">聊天消息提醒</string>
+    <string name="visitor_visit_house_detail">访客访问房源详情</string>
+    <string name="new_house_warming">房源上新实时提醒</string>
+    <string name="house_change_price_warming">房源调价实时提醒</string>
+    <string name="event_warming">活动提醒</string>
+    <string name="house_keeper_call_warming">房主召唤提醒</string>
+    <string name="open_lock_step">开锁步骤</string>
+    <string name="open_lock">开锁</string>
+    <string name="please_put_key_in_box_after_open_lock">**开锁后，请把钥匙放回盒子**</string>
+    <string name="contact_number">联系电话</string>
+    <string name="get_lock_password">获取锁密码</string>
+    <string name="please_input_phone_for_prevent_agent_conflict">提示：为了防止带看信息与其他经纪人冲突， 请输入客户电话区分</string>
+    <string name="please_get_key_by_follow_method">请通过以下方式获取钥匙</string>
+    <string name="if_bluetooth_open_lock_fail_click_follow_button_to_get_password">若蓝牙开锁失败，点击下方按钮，进行密码开锁</string>
+    <string name="get_password">获取密码</string>
+    <string name="house_agent">房产经纪</string>
+    <string name="actively_browse_and_pay_attention_to_housing_resources">积极浏览及关注房源</string>
+    <string name="talk_to_the_seller_by_phone_or_chat">认真与卖家电话或聊天沟通</string>
+    <string name="observe_the_appointment_time">遵守看房约定时间</string>
+    <string name="timely_update_of_housing_transaction_status">及时更新房源成交状态</string>
+    <string name="to_ascend">去提升</string>
+    <string name="invite_more_visitors_to_your_site">邀请更多访客关注自己</string>
+    <string name="get_more_visitor_recognition">获得更多访客认可</string>
+    <string name="list_of_day">日榜</string>
+    <string name="list_of_week">周榜</string>
+    <string name="list_of_month">月榜</string>
+    <string name="my_ranking">我的排名</string>
+    <string name="comprehensive_evaluation">综合评分</string>
+    <string name="no_data">暂无数据</string>
+    <string name="line_no_more_line">—没有更多了—</string>
+    <string name="homes_to_visit">房源访问</string>
+    <string name="the_total_time">累计时长</string>
+    <string name="single_most">单次最多</string>
+    <string name="cancel_the_main">取消主推</string>
+    <string name="unfollow">取消关注</string>
+    <string name="second_bean_running_water">秒豆流水</string>
+    <string name="ranking_board">评分排行榜</string>
+    <string name="take_a_picture">拍照</string>
+    <string name="select_from_the_album">从相册中选择</string>
+    <string name="vista">街景</string>
+    <string name="tencent_maps">腾讯地图</string>
+    <string name="amap">高德地图</string>
+    <string name="baidumap">百度地图</string>
+    <string name="save_to_album">保存到相册</string>
+    <string name="star">*</string>
+    <string name="the_housekeeper_name">房主姓名</string>
+    <string name="the_more_trusted_the_homeowner_the_easier_it_is_to_pass_the_audit">（房主越信任，越容易通过审核）</string>
+    <string name="please_enter_address">请输入地址</string>
+    <string name="housing_address_with_colon">房源地址:</string>
+    <string name="no_address_has_been_selected">暂未选择任何地址</string>
+    <string name="confirm_the_selected_address">确认选择地址</string>
+    <string name="please_enter_housekeeper_name">请输入房主姓名</string>
+    <string name="housekeeper_phone">房主手机</string>
+    <string name="please_input_housekeeper_phone">请输入房主手机</string>
+    <string name="house_address">房源地址</string>
+    <string name="please_input_house_address">请输入房源地址</string>
+    <string name="mmf_tagline">海量个人房源，每日上新  现金、实物奖励、高额佣金</string>
+    <string name="hi_you_are_invited_to_register_for_mmf_agent">HI，邀请您注册秒卖房经纪人版</string>
+    <string name="mmf_agent">秒卖房经纪人版</string>
+    <string name="login_with_wx">微信登录</string>
+    <string name="visit_record">访问记录</string>
+    <string name="i_browsed">我浏览过</string>
+    <string name="bean_protocol">《秒豆服务协议》</string>
+    <string name="shelf_time">上架时间:</string>
+    <string name="follow_member_count">关注人数</string>
+    <string name="browser_member_count">浏览次数</string>
+    <string name="look_member_count">带看次数</string>
+    <string name="advisory_member_count">咨询次数</string>
+    <string name="now_sort_type_with_value">当前排序方式: %s</string>
+    <string name="change_sort_type">修改排序方式</string>
+    <string name="loading">加载中... ...</string>
+    <string name="mbean_service_update_warming">尊敬的用户，您好：\n感谢您的支持和喜爱！\n为了更好地提升服务品质，从即日起，秒卖房秒豆全面升级，您可以使用秒豆获取房源信息。\n感谢您的理解和支持！</string>
+    <string name="set_password_with_role">设置密码（8位以上，须包含数字及字母）</string>
+    <string name="save">保存</string>
+    <string name="recommend_house">推荐房源</string>
+    <string name="share_to_get_visitor">推广获客</string>
+    <string name="group_share_house_poster">分享房源海报</string>
+    <string name="share_to_wx_friend">发微信好友</string>
+    <string name="group_share_to_visitor">群发给访客</string>
+    <string name="pay_type">支付方式</string>
+    <string name="pay_at_once">立即支付</string>
+    <string name="warm_with_title">提示: %s</string>
+    <string name="one">1</string>
+
+    <string name="house_detail_to_be_vip"><Data><![CDATA[* <font color="#ff6600">成为会员</font>，查看更多好房源。]]></Data></string>
+    <string name="house_detail_to_get_bean"><Data><![CDATA[* 更多 <font color="#fd7200">获得秒豆</font>方式。]]></Data></string>
+
+    <string name="already_selected_count">(已选%d人)</string>
+    <string name="editHouseGroup">%s</string>
+
+    <string name="add_member_days_with_value">%s天</string>
+    <string name="parentheses_package">(%s)</string>
+    <string name="bmap">百度地图</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="entryHouse_selected_count"><Data><![CDATA[<font color="#333333">已选%d</font>/10套]]></Data></string>
+
+    <string name="year_with_value">%s年</string>
+    <string name="please_input_phone">请输入手机号</string>
+    <string name="please_input_password">请输入密码</string>
+    <string name="get_sms_code">获取验证码</string>
+    <string name="please_input_new_password">请输入新密码</string>
+    <string name="login">登录</string>
+    <string name="def_shop_name">店一</string>
+    <string name="def_number">0</string>
+    <string name="all_order">总单</string>
+    <string name="ready_order">已配</string>
+    <string name="oblique_line">/</string>
+    <string name="def_worker_name">员工</string>
+    <string name="def_phone">1598888888</string>
+    <string name="menu_purchase">采购</string>
+    <string name="menu_distribution_goods">分配(商品)</string>
+    <string name="menu_distribution_order">分配(订单)</string>
+    <string name="menu_delivery">送货</string>
+    <string name="arrive">已送达</string>
+    <string name="def_person_name">张三</string>
+
+
+</resources>

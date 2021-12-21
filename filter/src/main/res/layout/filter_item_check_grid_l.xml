@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/text"
+    android:layout_width="match_parent"
+    android:layout_height="25dp"
+    android:layout_margin="5dp"
+    android:background="@drawable/selector_check_item_l"
+    android:ellipsize="end"
+    android:gravity="center"
+    android:maxLines="1"
+    android:textAlignment="center"
+    android:textColor="@color/selector_check_item_text"
+    android:textSize="12sp" />

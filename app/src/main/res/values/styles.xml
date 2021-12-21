@@ -1,0 +1,319 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/text_main_gray_dark</item>
+        <item name="android:windowSoftInputMode">adjustPan</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- Common Spliter -->
+    <style name="Spliter">
+        <item name="android:background">@color/spliter_gray</item>
+    </style>
+
+    <style name="Spliter.Horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+    </style>
+
+    <style name="Spliter.Vertical">
+        <item name="android:layout_width">0.5dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <!-- Common Margin -->
+    <style name="Margin">
+        <item name="android:background">@color/main_gray_light</item>
+    </style>
+
+    <style name="Margin.Horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">10dp</item>
+    </style>
+
+    <!-- List -->
+    <style name="ListLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="ListLayout.Text">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="ListLayout.Title">
+        <item name="android:background">@color/main_gray_light</item>
+    </style>
+
+    <style name="ListText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/item_height</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="ListText.Normal">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_main_dark</item>
+        <item name="android:textColorHint">@color/text_main_gray_light</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+
+    <style name="ListText.Normal.Left">
+        <item name="android:gravity">center_vertical|left</item>
+    </style>
+
+    <style name="ListText.Normal.Left.Start">
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+
+    <style name="ListText.Normal.Left.End">
+        <item name="android:layout_marginRight">5dp</item>
+    </style>
+
+    <style name="ListText.Normal.Left.Prominent">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ListText.Normal.Left.Prominent.Start">
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+
+    <style name="ListText.Normal.Left.Prominent.End">
+        <item name="android:layout_marginRight">5dp</item>
+    </style>
+
+    <style name="ListText.Normal.Right">
+        <item name="android:gravity">center_vertical|right</item>
+    </style>
+
+    <style name="ListText.Normal.Right.Start">
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+
+    <style name="ListText.Normal.Right.End">
+        <item name="android:layout_marginRight">5dp</item>
+    </style>
+
+    <style name="ListText.Normal.Right.Prominent">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ListText.Normal.Right.Prominent.Start">
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+
+    <style name="ListText.Normal.Right.Prominent.End">
+        <item name="android:layout_marginRight">5dp</item>
+    </style>
+
+    <style name="ListText.Normal.Center">
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="ListText.Normal.Center.Start">
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+
+    <style name="ListText.Normal.Center.End">
+        <item name="android:layout_marginRight">5dp</item>
+    </style>
+
+    <style name="ListText.Normal.Center.Prominent">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ListText.Normal.Center.Prominent.Start">
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+
+    <style name="ListText.Normal.Center.Prominent.End">
+        <item name="android:layout_marginRight">5dp</item>
+    </style>
+
+    <style name="ListText.Title">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_main_dark</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="ListText.Title.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- List Editor -->
+    <style name="ListEditorLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="ListEditor">
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="ListEditor.Title">
+        <item name="android:textColor">@color/text_red_dark</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:minWidth">100dp</item>
+    </style>
+
+    <style name="ListEditor.Editor">
+        <item name="android:textColor">@color/text_main_dark</item>
+        <item name="android:textColorHint">@color/text_main_gray_light</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:gravity">center_vertical|right</item>
+    </style>
+
+    <style name="ListEditor.Editor.Left">
+        <item name="android:gravity">center_vertical|left</item>
+    </style>
+
+    <style name="ListEditor.Text">
+        <item name="android:textColor">@color/text_main_dark</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="ListEditor.Text.End">
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <!-- Main Tab -->
+    <style name="CustomTabPageIndicator.Text" parent="android:TextAppearance.Medium">
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <!-- Widget -->
+    <style name="Widget"></style>
+
+    <style name="Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/progressloading</item>
+    </style>
+
+    <!-- 加载滚动条样式 -->
+    <style name="loading">
+        <item name="android:indeterminate">true</item>
+        <item name="android:indeterminateDrawable">@drawable/progressloading</item>
+        <item name="android:indeterminateDuration">1000</item>
+        <item name="android:indeterminateOnly">true</item>
+    </style>
+
+    <!-- 订单详情列表 -->
+    <style name="OrderDetailItem">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginLeft">1dp</item>
+        <item name="android:layout_marginRight">1dp</item>
+    </style>
+
+    <!-- 个人信息 -->
+    <style name="ImageSellerTyp">
+        <item name="android:layout_width">26dp</item>
+        <item name="android:layout_height">26dp</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:padding">4dp</item>
+    </style>
+
+    <!-- Dialog -->
+    <style name="CustomDialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <!-- Login & Register -->
+    <style name="LoginInputLayout">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="LoginInput">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColorHint">@color/text_gray_dark</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <style name="LoginInputLine">
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:background">@color/background_light</item>
+    </style>
+
+    <style name="LoginButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:background">@drawable/shape_button_black</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="LoginSmsButton">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_gray_dark</item>
+        <item name="android:background">@drawable/shape_button_trans_gray</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">4dp</item>
+    </style>
+
+    <style name="LoginButtonBellow">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- Animation -->
+    <style name="Animation.CustomPopup" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/base_popup_top_in</item>
+        <item name="android:windowExitAnimation">@anim/base_popup_top_out</item>
+    </style>
+
+    <!-- Dialog -->
+    <style name="MMFDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimAmount">0.2</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+</resources>

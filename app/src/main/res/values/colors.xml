@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#ffff8f22</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- BACK GROUND -->
+    <color name="main_bg">#fff6f6f6</color>
+    <color name="main_white">#ffffffff</color>
+    <color name="main_gray_light">#ffeeeeee</color>
+    <color name="main_gray_ddark">#ff4a4c56</color>
+    <color name="main_red">#ffff2424</color>
+
+    <color name="main_bg_ll">#ff85929d</color>
+    <color name="main_bg_light">#ff3b536b</color>
+    <color name="main_bg_dark">#ff0c3055</color>
+
+    <color name="main_orange">#ffff8f22</color>
+    <color name="main_orange_trans">#99ff8f22</color>
+
+    <color name="red_dark">#ff9b302b</color>
+
+    <color name="text_red_dark">@color/red_dark</color>
+
+    <!-- BUTTON -->
+    <color name="button_green">#ff10bf56</color>
+
+    <!-- EDITOR -->
+
+    <!-- SPLITE -->
+    <color name="spliter_gray">#ffcccccc</color>
+
+    <!-- CHART -->
+    <color name="chart_bar_normal">#ff416d98</color>
+    <color name="chart_bar_choice">#ff4c9ae8</color>
+
+    <!-- TIP -->
+    <color name="tip_orange">#ffff8813</color>
+    <color name="tip_green">@color/button_green</color>
+    <color name="tip_blue">#ff0074ff</color>
+    <color name="tip_pink">#ffff6b6b</color>
+
+    <color name="tip_orange_trans">#88ff8813</color>
+    <color name="tip_green_trans">#8821bf56</color>
+
+    <!-- ORDER POP MESSAGE -->
+    <color name="order_pop_message">#ff5d6d7d</color>
+
+    <!-- TEXT -->
+    <color name="text_main_gray_dark">#ff7b8086</color>
+    <color name="text_main_gray_light">#ffa6a8ac</color>
+    <color name="text_main_light">#ffced1d6</color>
+    <color name="text_main_dark">#ff333333</color>
+    <color name="text_main_blue">@color/main_bg</color>
+    <color name="text_main_white">@color/main_white</color>
+
+    <color name="text_orange_light">#ffff8f0b</color>
+    <color name="text_orange_dark">#fffe5300</color>
+    <color name="text_rad">#fffe3c3c</color>
+    <color name="text_blue_light">@color/tip_blue</color>
+    <color name="text_green">@color/tip_green</color>
+    <color name="text_pink">@color/tip_pink</color>
+
+    <!-- 下拉刷新时，颜色值 -->
+    <color name="swiperefresh_color1">#ff00ddff</color>
+    <color name="swiperefresh_color2">#ffffbb33</color>
+    <color name="swiperefresh_color3">#ffff4444</color>
+    <color name="swiperefresh_color4">#ffaa66cc</color>
+
+    <!-- Toast -->
+    <color name="toast_backgroud">@color/main_white</color>
+    <color name="toast_text">@color/text_main_blue</color>
+    <color name="background_dark">#e2e2e2</color>
+
+</resources>

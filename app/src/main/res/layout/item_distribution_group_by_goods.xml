@@ -1,0 +1,128 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ContentDescription">
+
+    <data>
+
+        <import type="jx.android.staff.api.model.items.DistributionShopItem" />
+
+        <variable
+            name="data"
+            type="DistributionShopItem" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_white"
+        android:orientation="horizontal"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
+        <ImageView
+            android:id="@+id/img_avatar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/avatar_def_little"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:paddingTop="2dp"
+            android:paddingEnd="10dp"
+            android:text="@string/def_shop_name"
+            android:textColor="@color/text_black"
+            android:textSize="14sp"
+            app:layout_constraintLeft_toRightOf="@id/img_avatar"
+            app:layout_constraintTop_toTopOf="@id/img_avatar" />
+
+        <TextView
+            android:id="@+id/text_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="111"
+            android:textColor="@color/text_main_gray_dark"
+            android:textSize="12sp"
+            app:layout_constraintLeft_toLeftOf="@id/text_name"
+            app:layout_constraintTop_toBottomOf="@id/text_name" />
+
+        <View
+            android:id="@+id/line_bottom"
+            style="@style/Spliter.Horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="60dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/img_right"
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:src="@drawable/right_gray"
+            app:layout_constraintBottom_toBottomOf="@+id/line_bottom"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            app:layout_constraintBottom_toBottomOf="@id/img_avatar"
+            app:layout_constraintRight_toLeftOf="@id/img_right"
+            app:layout_constraintTop_toTopOf="@id/img_avatar">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ready_order"
+                android:textColor="@color/text_black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/text_order_count_done"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:text="@string/def_number"
+                android:textColor="@color/green"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:text="@string/oblique_line"
+                android:textColor="@color/text_black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:text="@string/all_order"
+                android:textColor="@color/text_black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/text_order_count_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:text="@string/def_number"
+                android:textColor="@color/text_gray"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0fa6e8</color>
+    <color name="colorPrimaryDark">#2ea7e0</color>
+    <color name="colorAccent">#0fa6e8</color>
+
+    <color name="blue">#0fa6e8</color>
+    <color name="blue_light">#00acff</color>
+    <color name="blue_dark">#2ea7e0</color>
+    <color name="blue_trans">#4c0fa6e8</color>
+
+    <color name="red">#ffd33f3f</color>
+    <color name="red_light">#ffda5a4d</color>
+
+    <color name="orange">#fffd7200</color>
+    <color name="orange_trans">#4cfd7200</color>
+
+    <color name="green">#ff19c0a4</color>
+    <color name="green_trans">#4c19c0a4</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff2c2c2c</color>
+    <color name="black_light">#ff333333</color>
+
+    <color name="text_black">@color/black</color>
+    <color name="text_gray_dark">#666666</color>
+    <color name="text_gray">#999999</color>
+    <color name="text_gray_light">#b5b5b5</color>
+
+    <color name="text_orange">@color/orange</color>
+    <color name="text_green">@color/green</color>
+    <color name="text_blue">@color/blue</color>
+
+    <color name="background_light">#f4f4f4</color>
+    <color name="line_gray_light">#e5e5e5</color>
+    <color name="line_gray">#a5a5a5</color>
+
+    <color name="main_house_date_blue">#cc0fa6e8</color>
+    <color name="main_house_date_gray">#7f000000</color>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="FilterTabLayout">
+
+        <attr name="tabTextSize" format="dimension" /> <!--tab字体大小-->
+        <attr name="tabTextColorNormal" format="color" /> <!--tab字体正常颜色-->
+        <attr name="tabTextColorFocus" format="color" /> <!--tab字体选中颜色-->
+        <attr name="tabTextColorChecked" format="color" /> <!--tab字体关联选项模组有选项的颜色-->
+        <attr name="tabBackgroundNormal" format="color|reference" /> <!--tab正常背景-->
+        <attr name="tabBackgroundFocus" format="color|reference" /> <!--tab选中背景-->
+        <attr name="tabPopAnim" format="reference" /> <!--popwindow弹出动画-->
+        <attr name="tabMaxEms" format="integer" /> <!--tab单行最多字数-->
+        <attr name="tabMaxLines" format="integer" /> <!--tab单行最大行数-->
+    </declare-styleable>
+
+
+</resources>

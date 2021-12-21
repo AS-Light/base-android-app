@@ -1,0 +1,102 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ContentDescription">
+
+    <data>
+
+        <import type="jx.android.staff.binding.vm.DistributionPersonOrderDetailActivityViewModel" />
+
+        <import type="jx.android.staff.binding.handler.DistributionPersonOrderDetailActivityHandler" />
+
+        <variable
+            name="viewModel"
+            type="DistributionPersonOrderDetailActivityViewModel" />
+
+        <variable
+            name="handler"
+            type="DistributionPersonOrderDetailActivityHandler" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/spliter_gray"
+        android:orientation="vertical"
+        tools:context=".acts.main.distribution_shop.DistributionMainShopFragment">
+
+        <com.aslight.titlebar.widget.CommonTitleBar
+            android:id="@+id/title_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:fillStatusBar="true"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:leftDrawable="@drawable/icon_title_back"
+            app:leftDrawablePadding="10dp"
+            app:leftText="房源海报"
+            app:leftTextColor="@color/white"
+            app:leftTextSize="16sp"
+            app:leftType="textView"
+            app:rightTextColor="@color/white"
+            app:showBottomLine="false"
+            app:statusBarColor="@color/black"
+            app:statusBarMode="light"
+            app:titleBarColor="@color/black" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/text_goods_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:text="品名：白菜"
+                android:textColor="@color/text_main_dark"
+                android:textSize="14sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/text_tour_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:text="总数：200"
+                android:textColor="@color/text_rad"
+                android:textSize="14sp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:maxLines="1"
+                android:text="规格：500克"
+                android:textColor="@color/text_main_gray_light"
+                android:textSize="14sp"
+                app:layout_constraintRight_toLeftOf="@id/text_tour_count"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <View style="@style/Margin.Horizontal" />
+
+        <com.jude.easyrecyclerview.EasyRecyclerView
+            android:id="@+id/recycler"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_empty="@layout/layout_no_data"
+            app:layout_error="@layout/layout_recycler_error"
+            app:layout_progress="@layout/layout_recycler_progress"
+            app:scrollbarStyle="insideOverlay"
+            app:scrollbars="none" />
+    </LinearLayout>
+</layout>

@@ -1,0 +1,83 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ContentDescription">
+
+    <data>
+
+        <import type="jx.android.staff.api.model.items.PersonOrderItem" />
+
+        <import type="jx.android.staff.binding.handler.DistributionShopOrdersActivityHandler" />
+
+        <variable
+            name="data"
+            type="PersonOrderItem" />
+
+        <variable
+            name="handler"
+            type="DistributionShopOrdersActivityHandler" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_white"
+        android:onClick="@{()->handler.onClickItem(data.id)}"
+        android:orientation="horizontal"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
+        <ImageView
+            android:id="@+id/img_avatar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/avatar_def_little"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:paddingTop="2dp"
+            android:paddingEnd="10dp"
+            android:text="@string/def_person_name"
+            android:textColor="@color/text_black"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@id/img_avatar"
+            app:layout_constraintLeft_toRightOf="@id/img_avatar"
+            app:layout_constraintTop_toTopOf="@id/img_avatar" />
+
+        <View
+            android:id="@+id/line_bottom"
+            style="@style/Spliter.Horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="60dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/img_right"
+            android:layout_width="wrap_content"
+            android:layout_height="16dp"
+            android:src="@drawable/right_gray"
+            app:layout_constraintBottom_toBottomOf="@+id/line_bottom"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:text="@string/ready_order"
+            android:textColor="@color/text_green"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="@id/img_avatar"
+            app:layout_constraintRight_toLeftOf="@id/img_right"
+            app:layout_constraintTop_toTopOf="@id/img_avatar" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

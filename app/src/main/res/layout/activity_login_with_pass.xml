@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="jx.android.staff.binding.vm.LoginViewModel" />
+
+        <import type="jx.android.staff.binding.handler.LoginHandler" />
+
+        <variable
+            name="viewModel"
+            type="LoginViewModel" />
+
+        <variable
+            name="handler"
+            type="LoginHandler" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="Autofill,TextFields, MissingConstraints">
+
+        <com.aslight.titlebar.widget.CommonTitleBar
+            android:id="@+id/title_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:fillStatusBar="true"
+            app:leftDrawable="@drawable/icon_title_back"
+            app:leftDrawablePadding="10dp"
+            app:leftText="密码登录"
+            app:leftTextColor="@color/white"
+            app:leftTextSize="16sp"
+            app:leftType="textView"
+            app:showBottomLine="false"
+            app:statusBarColor="@color/black"
+            app:statusBarMode="light"
+            app:titleBarColor="@color/black" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white">
+
+                <ImageView
+                    android:id="@+id/image_logo"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="40dp"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/ic_launcher_round"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="ContentDescription" />
+
+                <LinearLayout
+                    android:id="@+id/layout_phone"
+                    style="@style/LoginInputLayout"
+                    android:layout_marginTop="40dp"
+                    app:layout_constraintTop_toBottomOf="@id/image_logo">
+
+                    <EditText
+                        android:id="@+id/editor_phone"
+                        style="@style/LoginInput"
+                        android:hint="@string/please_input_phone_num"
+                        android:imeOptions="actionNext"
+                        android:inputType="phone"
+                        android:nextFocusForward="@+id/editor_password"
+                        android:text="@={viewModel.loginParam.username}" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/view_temp_1"
+                    style="@style/LoginInputLine"
+                    app:layout_constraintTop_toBottomOf="@id/layout_phone" />
+
+                <LinearLayout
+                    android:id="@+id/layout_password"
+                    style="@style/LoginInputLayout"
+                    android:layout_marginTop="10dp"
+                    app:layout_constraintTop_toBottomOf="@id/view_temp_1">
+
+                    <EditText
+                        android:id="@+id/editor_password"
+                        style="@style/LoginInput"
+                        android:hint="@string/please_input_password_with_rule"
+                        android:imeOptions="actionDone"
+                        android:inputType="textPassword"
+                        android:password="@{viewModel.showAsPassword}"
+                        android:text="@={viewModel.loginParam.password}" />
+
+                    <ImageView
+                        android:layout_width="23dp"
+                        android:layout_height="33dp"
+                        android:onClick="@{()->handler.showPassword()}"
+                        android:paddingStart="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingEnd="0dp"
+                        android:paddingBottom="10dp"
+                        android:src="@{viewModel.showAsPassword ? @drawable/icon_eyes_close : @drawable/icon_eyes_open}" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/view_temp_2"
+                    style="@style/LoginInputLine"
+                    app:layout_constraintTop_toBottomOf="@id/layout_password" />
+
+                <TextView
+                    android:id="@+id/button_login"
+                    style="@style/LoginButton"
+                    android:layout_marginTop="50dp"
+                    android:onClick="@{()->handler.login()}"
+                    android:text="@string/login"
+                    app:layout_constraintTop_toBottomOf="@id/view_temp_2" />
+
+                <TextView
+                    android:id="@+id/button_find_password"
+                    style="@style/LoginButtonBellow"
+                    android:layout_marginTop="10dp"
+                    android:onClick="@{()->handler.findPassword()}"
+                    android:text="@string/retrieve_password"
+                    android:textColor="@color/black"
+                    app:layout_constraintLeft_toLeftOf="@id/button_login"
+                    app:layout_constraintTop_toBottomOf="@id/button_login" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+</layout>
+

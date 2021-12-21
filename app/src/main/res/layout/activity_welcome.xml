@@ -1,0 +1,42 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ContentDescription">
+
+    <data>
+
+        <import type="jx.android.staff.binding.vm.WelcomeActivityViewModel" />
+
+        <import type="jx.android.staff.binding.handler.WelcomeActivityHandler" />
+
+        <variable
+            name="viewModel"
+            type="WelcomeActivityViewModel" />
+
+        <variable
+            name="handler"
+            type="WelcomeActivityHandler" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <com.aslight.titlebar.widget.CommonTitleBar
+            android:id="@+id/title_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:fillStatusBar="true"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:showBottomLine="false"
+            app:statusBarColor="@color/black"
+            app:statusBarMode="light"
+            app:titleBarColor="@color/black"
+            app:titleBarHeight="0dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
